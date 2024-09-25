@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 13
+    is_correct: true
+  - text: 15
+    is_correct: false
+  - text: 12
+    is_correct: false
+  - text: 14
+    is_correct: false
+files:
+  - name: src/Main.kt
+    visible: true
+local_check: true

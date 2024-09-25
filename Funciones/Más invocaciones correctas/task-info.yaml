@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "checkEqual(s1 = \"abc\", s2 = \"aBc\", true)"
+    is_correct: true
+  - text: "checkEqual(ignoreCase = true, \"abc\", \"ABC\")"
+    is_correct: false
+  - text: "checkEqual(\"abc\", \"ABC\", ignoreCase = true)"
+    is_correct: true
+  - text: "checkEqual(s2 = \"abc\", s1 = \"aBc\")"
+    is_correct: true
+files:
+  - name: src/Main.kt
+    visible: true
+local_check: true

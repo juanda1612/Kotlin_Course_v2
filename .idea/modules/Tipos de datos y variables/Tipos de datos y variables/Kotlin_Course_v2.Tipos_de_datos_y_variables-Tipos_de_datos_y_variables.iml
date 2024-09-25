@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Tipos_de_datos_y_variables-Tipos_de_datos_y_variables" external.linked.project.path="$MODULE_DIR$/../../../../Tipos de datos y variables/Tipos de datos y variables" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="Kotlin_Course_v2" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../Tipos de datos y variables/Tipos de datos y variables">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Tipos de datos y variables/Tipos de datos y variables/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Tipos de datos y variables/Tipos de datos y variables/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../Tipos de datos y variables/Tipos de datos y variables/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

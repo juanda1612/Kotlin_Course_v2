@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "f(10, b = 11, 12)"
+    is_correct: true
+  - text: "f(a = 10, b = 11, 12)"
+    is_correct: true
+  - text: "f(10, 11, c = 12)"
+    is_correct: true
+  - text: "f(a = 10, c = 12, b = 11)"
+    is_correct: true
+files:
+  - name: src/Main.kt
+    visible: true
+local_check: true

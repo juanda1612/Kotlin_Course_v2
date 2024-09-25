@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -12,6 +13,19 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Aspectos Básicos/Entrada por teclado" />
             <option value="$PROJECT_DIR$/Aspectos Básicos/Salida estandar" />
+            <option value="$PROJECT_DIR$/Estructuras de control/if" />
+            <option value="$PROJECT_DIR$/Estructuras de control/if o when como expresiones" />
+            <option value="$PROJECT_DIR$/Estructuras de control/when" />
+            <option value="$PROJECT_DIR$/Funciones/Argumentos con nombre" />
+            <option value="$PROJECT_DIR$/Funciones/Determinar el resultado" />
+            <option value="$PROJECT_DIR$/Funciones/Funciones" />
+            <option value="$PROJECT_DIR$/Funciones/Hola, usuario secreto" />
+            <option value="$PROJECT_DIR$/Funciones/Invocaciones correctas" />
+            <option value="$PROJECT_DIR$/Funciones/Más invocaciones correctas" />
+            <option value="$PROJECT_DIR$/Funciones/Precio del coche" />
+            <option value="$PROJECT_DIR$/Programación Orientada a Objetos/Clases" />
+            <option value="$PROJECT_DIR$/Programación Orientada a Objetos/Herencia" />
+            <option value="$PROJECT_DIR$/Tipos de datos y variables/Tipos de datos y variables" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

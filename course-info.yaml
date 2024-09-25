@@ -4,3 +4,7 @@ language: English
 programming_language: Kotlin
 content:
   - Aspectos Básicos
+  - Tipos de datos y variables
+  - Estructuras de control
+  - Funciones
+  - Programación Orientada a Objetos
