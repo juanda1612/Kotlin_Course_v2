@@ -7,3 +7,5 @@ files:
     propagatable: false
   - name: img.png
     visible: true
+  - name: src/Task_JuanDaniel.kt
+    visible: true
