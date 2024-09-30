@@ -33,35 +33,18 @@ fun coche(
 }
 
 fun menu(){
-    var antigüedadC : Int = 0
-    var kilometrosR : Int = 0
-    var velocidadMaxima : Int = 0
-    var transmisionAutomatica : Boolean = false
-
-    var opcion2 : String = ""
     println("¿Quieres modificar algun parametro?")
-    var opcion3 = readln()
-    while (opcion3.equals("si", ignoreCase = true)) {
+    var opcion = readln()
+    while (opcion.equals("si", ignoreCase = true)) {
         println("¿Que quieres modificar?")
-        var opcion : String = readln()
-        when (opcion){
-            "antigüedad" -> antigüedadC = readln().toInt()
-            "kilometros" -> kilometrosR = readln().toInt()
-            "velocidad Maxima" -> velocidadMaxima = readln().toInt()
-            "transmision Automatica" -> opcion2 = readln()
-        }
-
-        if (opcion2.equals("si",ignoreCase = true)){
-            transmisionAutomatica = true
-        }else{
-            transmisionAutomatica = false
+        var opcion2 : String = readln()
+        when (opcion2){
+            "antigüedad" -> coche(antigüedadC = readln().toInt())
+            "kilometros" -> coche(kilometrosR = readln().toInt())
+            "velocidad Maxima" -> coche(velocidadMaxima = readln().toInt())
+            "transmision Automatica" -> coche(transmisionAutomatica = readln().toBoolean())
         }
         println("¿Quieres modificar algo mas?")
-        opcion3 = readln()
-    }
-    if(opcion2.equals("si",ignoreCase = true)) {
-        coche(antigüedadC, kilometrosR, velocidadMaxima, transmisionAutomatica)
-    }else{
-        coche()
+        opcion = readln()
     }
 }
